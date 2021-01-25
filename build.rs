@@ -19,8 +19,7 @@ fn main() {
         .derive_ord(true)
         .derive_default(true)
         .derive_hash(true)
-        .clang_arg("-I../scoutfs/kmod/src")
-        .clang_arg("-I../scoutfs/utils/src")
+        .clang_arg("-Iincludes")
         // Finish the builder and generate the bindings.
         .generate()
         // Unwrap the Result and panic on failure.
