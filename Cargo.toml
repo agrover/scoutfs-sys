@@ -3,7 +3,12 @@ name = "scoutfs-sys"
 version = "0.1.0"
 authors = ["Andy Grover <andy@groveronline.com>"]
 edition = "2018"
+license = "MIT"
+description = "sys pkg for Versity ScoutFS headers"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+
+[build-dependencies]
+bindgen = "0.56.0"
