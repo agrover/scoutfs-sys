@@ -1,0 +1,9 @@
+[package]
+name = "scoutfs-sys"
+version = "0.1.0"
+authors = ["Andy Grover <andy@groveronline.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
