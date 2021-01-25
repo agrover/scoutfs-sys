@@ -5,6 +5,7 @@ authors = ["Andy Grover <andy@groveronline.com>"]
 edition = "2018"
 license = "MIT"
 description = "sys pkg for Versity ScoutFS headers"
+repository = "https://github.com/agrover/scoutfs-sys/"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
